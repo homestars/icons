@@ -1,5 +1,5 @@
 import React from "react";
-import * as colours from "colours";
+import * as colours from "./colours";
 
 import {
   circle,
