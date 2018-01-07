@@ -11,7 +11,7 @@ const propTypes = {
 const defaultProps = {
   arrowFill: colours.white,
   fill: colours.youTubeRed
-;
+}
 
 function YouTube({ arrowFill, fill }) {
   return pug`
