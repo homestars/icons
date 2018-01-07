@@ -53,3 +53,4 @@ export const googlePlusRed = "#DD4B39";
 export const linkedinBlue = "#0077B4";
 export const pinterestRed = "#BD081C";
 export const twitterBlue = "#1DA1F2";
+export const youTubeRed = "#E52D27";

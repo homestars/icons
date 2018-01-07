@@ -9,9 +9,9 @@ const propTypes = {
 };
 
 const defaultProps = {
-  arrowFill: "none",
-  fill: colours.trueBlack
-};
+  arrowFill: colours.white,
+  fill: colours.youTubeRed
+;
 
 function YouTube({ arrowFill, fill }) {
   return pug`
