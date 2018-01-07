@@ -1,10 +1,11 @@
 {
   "name": "homestars-icons",
-  "version": "0.1.5",
+  "version": "0.1.4",
   "description": "HomeStars componentized icons",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel source --out-dir dist",
+    "patch": "npm version patch; npm publish",
     "prepublish": "npm run build"
   },
   "repository": {
