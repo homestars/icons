@@ -1,0 +1,35 @@
+{
+  "name": "homestars-icons",
+  "version": "0.1.0",
+  "description": "HomeStars componentized icons",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel source --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homestars/icons.git"
+  },
+  "keywords": [
+    "HomeStars",
+    "React",
+    "Icons",
+    "SVG"
+  ],
+  "author": "Benjamin Bruneau <ben@homestars.com> and Curtis Townson <curtis@homestars.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/homestars/icons/issues"
+  },
+  "homepage": "https://github.com/homestars/icons#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
