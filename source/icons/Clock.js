@@ -13,7 +13,7 @@ const defaultProps = {
 
 function Clock({ fill, stroke }) {
   return pug`
-    svg(width="22", height="22", viewbox="0 0 22 22")
+    svg(width="22", height="22", viewBox="0 0 22 22")
       path(
         fill=fill
         stroke=stroke

@@ -14,7 +14,7 @@ const defaultProps = {
 
 function Website({ dotFill, fill, stroke }) {
   return pug`
-    svg(xmlns="http://www.w3.org/2000/svg", width="22", height="22", viewbox="0 0 22 22")
+    svg(xmlns="http://www.w3.org/2000/svg", width="22", height="22", viewBox="0 0 22 22")
       circle(cx="11", cy="11", r="10", stroke=stroke, strokeWidth="2", fill=fill)
       path(
         fill=dotFill || stroke

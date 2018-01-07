@@ -8,7 +8,7 @@ const propTypes = {
 
 function Check({ stroke }) {
   return pug`
-    svg(width="20", height="20", viewbox="0 0 20 20")
+    svg(width="20", height="20", viewBox="0 0 20 20")
       polyline(
         fill="none"
         stroke=stroke

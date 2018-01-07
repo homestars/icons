@@ -13,7 +13,7 @@ const defaultProps = {
 
 function Listing({ fill, stroke }) {
   return pug`
-    svg(xmlns='http://www.w3.org/2000/svg', width='22', height='22', viewbox='0 0 22 22')
+    svg(xmlns='http://www.w3.org/2000/svg', width='22', height='22', viewBox='0 0 22 22')
         g(transform='translate(2 2.182)')
           polygon(
             fill="none"

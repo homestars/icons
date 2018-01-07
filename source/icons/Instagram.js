@@ -18,7 +18,7 @@ function Instagram({ fill, stroke }) {
   const bgFill2 = fill ? "none" : "url(#insta_radial_2)";
 
   return pug`
-    svg(x="0px", y="0px", width="22px", height="22px", viewbox="0 0 22 22")
+    svg(x="0px", y="0px", width="22px", height="22px", viewBox="0 0 22 22")
       g(transform="translate(1 1)")
         radialGradient#insta_radial_1(
           cx="64.9629"

@@ -14,7 +14,7 @@ const defaultProps = {
 
 function VacationMode({ fill, innerFill, stroke }) {
   return pug`
-    svg(xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink", width="22", height="22", viewbox="0 0 22 22")
+    svg(xmlns="http://www.w3.org/2000/svg",  width="22", height="22", viewBox="0 0 22 22")
       path(
         fill=fill
         stroke=stroke

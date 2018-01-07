@@ -18,7 +18,7 @@ const defaultProps = {
 
 function ToPhone({ arrowColor, fill, maskFill, stroke }) {
   return pug`
-    svg(width='22', height='22', viewbox='0 0 22 22')
+    svg(width='22', height='22', viewBox='0 0 22 22')
       defs
         polygon#ToPhoneA(points='11 14.254 14.252 11 11 7.759 9 5.756 9 1 21 1.001 21 21 9 21 9 16.238')
       mask#ToPhoneB(fill=maskFill)

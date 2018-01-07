@@ -10,7 +10,7 @@ const propTypes = {
 
 function Bookmark({ fill, stroke }) {
   return pug`
-    svg(width="20px", height="20px", viewbox="0 0 20 20")
+    svg(width="20px", height="20px", viewBox="0 0 20 20")
       path(
         fill=fill || stroke
         stroke=stroke

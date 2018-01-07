@@ -8,7 +8,7 @@ const propTypes = {
 
 function Gear({ stroke }) {
   return pug`
-    svg(xmlns='http://www.w3.org/2000/svg', width='22', height='22', viewbox='0 0 22 22')
+    svg(xmlns='http://www.w3.org/2000/svg', width='22', height='22', viewBox='0 0 22 22')
       path(
         fill=stroke
         stroke="none"

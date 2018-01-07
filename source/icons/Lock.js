@@ -14,7 +14,7 @@ const defaultProps = {
 
 function Lock({ fill, keyholeFill, stroke }) {
   return pug`
-    svg(x="0px", y="0px", width="22px", height="22px", viewbox="0 0 22 22")
+    svg(x="0px", y="0px", width="22px", height="22px", viewBox="0 0 22 22")
       path(
         fill="none"
         stroke=stroke
