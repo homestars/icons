@@ -21,7 +21,7 @@ import { Project } from "homestars-icons";
 
 ```js
 render = () => {
-  return <Project stroke="#000000" />
+  return <Project stroke="#000000" />;
 }
 ```
 
