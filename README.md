@@ -1,6 +1,6 @@
 # HomeStars Componentized Icons
 
-A set of React components containing SVG icons.
+A set of React components containing SVG icons. [View all currently available icons](https://react-3kijbz.stackblitz.io)
 
 ## Installation
 
