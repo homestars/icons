@@ -38,3 +38,13 @@ Some icons can accept a `fill` value as well; some have even more robust colouri
 The default in most cases is `#000000`; notable exceptions include logo icons.
 
 3. The default size is 22px x 22px, but can be adjusted via the `size` prop.
+
+## Contributing
+
+After committing changes to `master`, don't forget to publish to NPM:
+
+```shell
+$ npm run patch
+```
+
+This will increment the version, build a distribution, and publish to NPM.
