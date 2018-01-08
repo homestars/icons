@@ -23,8 +23,8 @@ export default function iconWrapper(Icon, options = {}) {
     const iconClass = props.wrapperClass ? props.iconClass : undefined;
 
     const iconProps = {
-      ...props,
       stroke: opts.stroke,
+      ...props,
       iconClass: undefined,
       wrapperClass: undefined
     };
