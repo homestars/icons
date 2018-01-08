@@ -20,10 +20,12 @@ export default function iconWrapper(Icon, options = {}) {
     const viewBoxSize = getViewboxSize(props, opts);
     const defaultSize = 22;
 
+    const iconClass = props.wrapperClass ? props.iconClass : undefined;
+
     const iconProps = {
       ...props,
       stroke: opts.stroke,
-      iconClass: props.wrapperClass ? props.iconClass : undefined,
+      iconClass: undefined,
       wrapperClass: undefined
     };
 
@@ -38,7 +40,10 @@ export default function iconWrapper(Icon, options = {}) {
       )
         = circle(props)
         = square(props)
-        g(transform=getTranslation(defaultSize, viewBoxSize))
+        g(
+          className=iconClass
+          transform=getTranslation(defaultSize, viewBoxSize)
+        )
           Icon(...iconProps)
     `;
   };
