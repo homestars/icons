@@ -1,3 +1,6 @@
+export { default as iconWrapper } from "./iconWrapper";
+
+// icons follow
 export Add from "./icons/Add";
 export Arrow from "./icons/Arrow";
 export Bookmark from "./icons/Bookmark";
