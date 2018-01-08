@@ -5,14 +5,16 @@ import * as colours from "../colours";
 
 const propTypes = {
   direction: PropTypes.string,
+  fill: PropTypes.string,
   stroke: PropTypes.string
 };
 
 const defaultProps = {
-  direction: "right"
+  direction: "right",
+  fill: "none"
 };
 
-function Chevron({ direction, stroke }) {
+function Chevron({ direction, fill, stroke }) {
   const directionTranslation = () => {
     switch (direction) {
       case "bottom":
@@ -34,7 +36,7 @@ function Chevron({ direction, stroke }) {
     svg(xmlns='http://www.w3.org/2000/svg', width='22', height='22', viewBox='0 0 22 22')
       g(transform=directionTranslation())
         polyline(
-          fill='none'
+          fill=fill
           stroke=stroke
           strokeWidth='2'
           strokeLinecap='round'
