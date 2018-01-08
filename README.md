@@ -41,7 +41,25 @@ The default in most cases is `#000000`; notable exceptions include logo icons.
 
 ## Contributing
 
-After committing changes to `master`, don't forget to publish to NPM:
+1. Clone this project
+
+```shell
+$ git clone git@github.com:homestars/icons.git
+```
+
+2. Install dependencies
+
+```shell
+$ npm install
+```
+
+3. Start the dev environment
+
+```shell
+$ npm start
+```
+
+4. After committing changes to `master`, don't forget to publish to NPM:
 
 ```shell
 $ npm run patch
