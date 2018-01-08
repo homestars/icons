@@ -1,0 +1,22 @@
+body {
+  background: LightSlateGray;
+}
+
+.rootParent {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+#root {
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid DarkSlateGray;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  width: 300px;
+}

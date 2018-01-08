@@ -1,2 +1,4 @@
-source
-dev
+config
+public
+scripts
+src
