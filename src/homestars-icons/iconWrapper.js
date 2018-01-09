@@ -3,18 +3,16 @@ import * as colours from "./colours";
 
 import {
   circle,
-  computeSize,
   getTranslation,
   getViewboxSize,
   square
 } from "./iconWrapperMethods";
 
-export default function iconWrapper(Icon, options = {}) {
-  const defaultOptions = {
-    stroke: colours.trueBlack
+export default function iconWrapper(Icon, opts = {}) {
+  const defaultProps = {
+    stroke: colours.trueBlack,
+    strokeWidth: 2
   };
-
-  const opts = { ...defaultOptions, ...options };
 
   const IconWrapper = props => {
     const viewBoxSize = getViewboxSize(props, opts);
@@ -23,7 +21,6 @@ export default function iconWrapper(Icon, options = {}) {
     const iconClass = props.wrapperClass ? props.iconClass : undefined;
 
     const iconProps = {
-      stroke: opts.stroke,
       ...props,
       iconClass: undefined,
       wrapperClass: undefined
@@ -49,6 +46,7 @@ export default function iconWrapper(Icon, options = {}) {
   };
 
   IconWrapper.displayName = `${Icon.displayName || Icon.name || ""}Icon`;
+  IconWrapper.defaultProps = defaultProps;
 
   return IconWrapper;
 }

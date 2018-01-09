@@ -10,6 +10,7 @@ export { default as Chevron } from "./icons/Chevron";
 export { default as Clock } from "./icons/Clock";
 export { default as DollarSign } from "./icons/DollarSign";
 export { default as Download } from "./icons/Download";
+export { default as Email } from "./icons/Email";
 export { default as Facebook } from "./icons/Facebook";
 export { default as Gear } from "./icons/Gear";
 export { default as Hammer } from "./icons/Hammer";

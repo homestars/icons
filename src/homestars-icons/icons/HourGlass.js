@@ -68,4 +68,4 @@ function HourGlass({ fill, sandFill, stroke }) {
 HourGlass.propTypes = propTypes;
 HourGlass.defaultProps = defaultProps;
 
-export default iconWrapper(HourGlass, { width: 14 });
+export default iconWrapper(HourGlass);

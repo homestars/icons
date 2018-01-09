@@ -1,16 +1,5 @@
 import React from "react";
 
-export function computeSize(dimension, size, opts) {
-  if (!dimension || !size) return false;
-
-  if (opts[dimension] > 22) {
-    const ratio = opts[dimension] / 22;
-    return size * ratio;
-  } else {
-    return size;
-  }
-}
-
 export const getTranslation = (size, viewBoxSize) => {
   const differential = viewBoxSize - size;
   const translation = differential > 0 ? differential / 2 : 0;
@@ -22,14 +11,19 @@ export const getViewboxSize = ({ circleFill, circleStroke }) => {
   return circleFill || circleStroke ? 34 : 22;
 };
 
-export const circle = ({ circleFill, circleStroke }) => {
+export const circle = ({
+  circleFill,
+  circleStroke,
+  circleStrokeWidth,
+  strokeWidth
+}) => {
   if (!circleFill && !circleStroke) return null;
 
   return pug`
     circle(
       fill=circleFill || "none"
       stroke=circleStroke || circleFill || "none"
-      strokeWidth="2"
+      strokeWidth=circleStrokeWidth || strokeWidth
       cx="17"
       cy="17"
       r="16"
