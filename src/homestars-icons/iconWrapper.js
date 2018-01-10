@@ -11,7 +11,8 @@ import {
 export default function iconWrapper(Icon, opts = {}) {
   const defaultProps = {
     stroke: colours.trueBlack,
-    strokeWidth: 2
+    strokeWidth: 2,
+    ...opts
   };
 
   const IconWrapper = props => {

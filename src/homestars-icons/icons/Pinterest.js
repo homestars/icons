@@ -30,4 +30,4 @@ function Pinterest({ fill, stroke }) {
 Pinterest.propTypes = propTypes;
 Pinterest.defaultProps = defaultProps;
 
-export default iconWrapper(Pinterest, { height: 22, width: 22, stroke: white });
+export default iconWrapper(Pinterest, { stroke: white });
