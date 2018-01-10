@@ -14,7 +14,7 @@ function X({ stroke }) {
         stroke=stroke
         strokeWidth="2"
         strokeLinecap="round"
-        d="M20 2L2 20M2 2L20 20"
+        d="M17.5 4.5L4.5 17.5M4.5 4.5L17.5 17.5"
       )
   `;
 }
