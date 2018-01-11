@@ -35,11 +35,11 @@ function Email({ fill, stroke, strokeWidth, words }) {
     } else {
       return pug`
         g
-          line(fill='none', stroke='#000000', strokeWidth='6', strokeLinecap='round', x1='20', y1='23', x2='22.99', y2='23')
-          line(fill='none', stroke='#000000', strokeWidth='6', strokeLinecap='round', x1='29', y1='23', x2='39.965', y2='23')
-          line(fill='none', stroke='#000000', strokeWidth='6', strokeLinecap='round', x1='20', y1='15', x2='31.5', y2='15')
-          line(fill='none', stroke='#000000', strokeWidth='6', strokeLinecap='round', x1='38', y1='15', x2='39', y2='15')
-          line(fill='none', stroke='#000000', strokeWidth='6', strokeLinecap='round', x1='43.5', y1='15.019', x2='45.005', y2='15.019')
+          line(fill='none', stroke=stroke, strokeWidth='6', strokeLinecap='round', x1='20', y1='23', x2='22.99', y2='23')
+          line(fill='none', stroke=stroke, strokeWidth='6', strokeLinecap='round', x1='29', y1='23', x2='39.965', y2='23')
+          line(fill='none', stroke=stroke, strokeWidth='6', strokeLinecap='round', x1='20', y1='15', x2='31.5', y2='15')
+          line(fill='none', stroke=stroke, strokeWidth='6', strokeLinecap='round', x1='38', y1='15', x2='39', y2='15')
+          line(fill='none', stroke=stroke, strokeWidth='6', strokeLinecap='round', x1='43.5', y1='15.019', x2='45.005', y2='15.019')
       `;
     }
   };
