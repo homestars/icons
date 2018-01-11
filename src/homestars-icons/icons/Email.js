@@ -71,7 +71,7 @@ function Email({ fill, stroke, strokeWidth, words }) {
       )
       = renderWords()
       g(transform='translate(6 25.415)')
-        use(fill='#FFF', href='#contact-email-a')
+        use(fill='#FFF', xlinkHref='#contact-email-a')
         path(
           fill=fill
           stroke=stroke

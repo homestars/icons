@@ -22,7 +22,7 @@ function ToPhone({ arrowColor, fill, maskFill, stroke }) {
       defs
         polygon#ToPhoneA(points='11 14.254 14.252 11 11 7.759 9 5.756 9 1 21 1.001 21 21 9 21 9 16.238')
       mask#ToPhoneB(fill=maskFill)
-        use(href='#ToPhoneA')
+        use(xlinkHref='#ToPhoneA')
       rect(
         width='10'
         height='18'
