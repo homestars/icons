@@ -20,3 +20,8 @@ body {
   justify-content: center;
   width: 300px;
 }
+
+
+.mix-blend-overlay {
+  mix-blend-mode: overlay;
+}
