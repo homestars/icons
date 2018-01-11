@@ -59,7 +59,7 @@ function Email({ fill, stroke, strokeWidth, words }) {
         transform='translate(6 3)'
       )
       rect(
-        stroke='#000'
+        stroke=stroke
         strokeWidth=multipliedStrokeWidth
         width='42.094'
         height='36'
