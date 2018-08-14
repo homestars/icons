@@ -22,14 +22,17 @@ const defaultProps = {
 function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
   return pug`
     svg(xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22")
-      polygon(
+      rect(
         fill=fill
-        points="2 20 20 20 20 2 2 2"
-        strokeWidth=strokeWidth
+        id="22x22" 
+        x="0" 
+        y="0" 
+        width="22" 
+        height="22"
       )
       path( 
         fill=fill
-        d="M13.56875,14.64086 C13.35005,15.50006 13.73705,16.21676 14.03015,16.26056 C15.82025,16.52906 17.08025,17.13476 17.94605,17.88146 C18.37685,18.25286 18.19175,18.95546 17.63435,19.06886 C16.33025,19.33406 13.98875,19.70006 10.99985,19.70006 C7.95905,19.70006 5.67995,19.34426 4.40645,19.08026 C3.84815,18.96446 3.66965,18.25616 4.10585,17.88896 C4.97915,17.15336 6.22985,16.55816 7.96775,16.26056 C8.26175,16.21046 8.67515,15.47486 8.42525,14.64086" 
+        d="M14.1395833,15.44994 C13.8722833,16.5000733 14.3452833,17.37604 14.7035167,17.4295733 C16.8914167,17.75774 18.4314167,18.49804 19.4896167,19.4106733 C20.01615,19.8646067 19.7899167,20.72334 19.10865,20.86194 C17.51475,21.1860733 14.6529167,21.6334067 10.9998167,21.6334067 C7.28328333,21.6334067 4.49771667,21.19854 2.94121667,20.8758733 C2.25885,20.73434 2.04068333,19.86864 2.57381667,19.41984 C3.64118333,18.5207733 5.16981667,17.7933067 7.29391667,17.4295733 C7.65325,17.36834 8.15851667,16.4692733 7.85308333,15.44994" 
         stroke=primaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -37,7 +40,7 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M6.8996,9.37871 C6.7895,9.50471 6.6932,9.66161 6.6932,9.85691 C6.6932,10.37561 6.8249,11.42501 7.4141,11.72111 C7.4675,12.86081 8.4254,14.64101 8.4254,14.64101 C9.4664,15.58271 10.2083,15.99311 10.5992,15.99311 C10.616,15.99311 10.7852,15.89381 11.048,15.89381 C11.3195,15.89381 11.5049,15.99311 11.5214,15.99311 C11.6651,15.99311 12.8021,15.43271 13.5686,14.64101 C13.5686,14.64101 14.5304,12.86081 14.5838,11.72111 C15.1748,11.40011 15.3047,10.37561 15.3047,9.85691 C15.3047,9.66101 15.2078,9.50411 15.0974,9.37781"
+        d="M5.9884,9.01842333 C5.85383333,9.17242333 5.73613333,9.36419 5.73613333,9.60289 C5.73613333,10.2368567 5.8971,11.5194567 6.61723333,11.8813567 C6.6825,13.2743233 7.85326667,15.4501233 7.85326667,15.4501233 C9.1256,16.60109 10.0323667,17.10269 10.5101333,17.10269 C10.5306667,17.10269 10.7374667,16.9813233 11.0586667,16.9813233 C11.3905,16.9813233 11.6171,17.10269 11.6372667,17.10269 C11.8129,17.10269 13.2025667,16.4177567 14.1394,15.4501233 C14.1394,15.4501233 15.3149333,13.2743233 15.3802,11.8813567 C16.1025333,11.4890233 16.2613,10.2368567 16.2613,9.60289 C16.2613,9.36345667 16.1428667,9.17169 16.0079333,9.01732333" 
         stroke=primaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -45,7 +48,7 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M9.4625,11.06006 L9.59042857,11.06006" 
+        d="M9.12083333,11.0734067 L9.1938,11.0734067" 
         stroke=primaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -53,7 +56,7 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M12.46439,11.06006 L12.5923186,11.06006"
+        d="M12.78981,11.0734067 L12.8627767,11.0734067"
         stroke=primaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -61,7 +64,7 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M8.75015,10.7 L10.21265,10.7" 
+        d="M8.25018333,10.6333333 L10.0376833,10.6333333" 
         stroke=primaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -69,7 +72,7 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M13.25792,10.7 L11.79542,10.7"
+        d="M13.75968,10.6333333 L11.97218,10.6333333"
         stroke=primaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -77,7 +80,7 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M11.6,13.7 C11.6,13.7 11.3939,13.835 11,13.835 C10.6061,13.835 10.4,13.7 10.4,13.7"
+        d="M11.7333333,14.3 C11.7333333,14.3 11.4814333,14.41 11,14.41 C10.5185667,14.41 10.2666667,14.3 10.2666667,14.3"
         stroke=primaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -85,7 +88,39 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M12.2003,3.04985 C14.1827,3.55535 15.7133,5.28455 16.0367,7.43855" 
+        d="M5.5,17.8613967 L5.5,21.2607633"
+        stroke=primaryColor 
+        strokeWidth=strokeWidth
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+      )
+      path( 
+        fill=fill
+        d="M16.5,17.8613967 L16.5,21.2607633"
+        stroke=primaryColor 
+        strokeWidth=strokeWidth
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+      )
+      path( 
+        fill=fill
+        d="M14.3825367,17.2557 C14.12917,17.8394333 12.8748033,19.0208333 11.01507,19.0208333 C9.15533667,19.0208333 7.79537,17.8049667 7.64760333,17.2557"
+        stroke=primaryColor 
+        strokeWidth=strokeWidth
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+      )
+      path( 
+        fill=fill
+        d="M12.4670333,1.28315 C14.8899667,1.90098333 16.7607,4.01445 17.1559667,6.64711667"
+        stroke=secondaryColor
+        strokeWidth=strokeWidth
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+      )
+      path( 
+        fill=fill
+        d="M4.84062333,6.6693 C5.22855667,4.02636667 7.10332333,1.90263333 9.53322333,1.28333333" 
         stroke=secondaryColor 
         strokeWidth=strokeWidth
         strokeLinecap="round" 
@@ -93,98 +128,66 @@ function FindAPro({ fill, stroke, strokeWidth, primaryColor, secondaryColor }) {
       )
       path( 
         fill=fill
-        d="M5.96051,7.4567 C6.27791,5.2943 7.81181,3.5567 9.79991,3.05"
-        stroke=secondaryColor
+        d="M6.23513,7.62267 C5.39289667,7.36783667 4.88909667,6.98063667 4.88909667,6.40497"
+        stroke=secondaryColor 
         strokeWidth=strokeWidth
-        strokeLinecap="round"
+        strokeLinecap="round" 
         strokeLinejoin="round"
       )
       path( 
         fill=fill
-        d="M7.10147,8.23673 C6.41237,8.02823 6.00017,7.71143 6.00017,7.24043"
+        d="M17.11105,6.40504333 C17.11105,7.74557667 14.3749833,8.06604333 10.9998167,8.06604333 C9.62445,8.06604333 8.35468333,8.01287667 7.33315,7.85887667"
         stroke=secondaryColor
         strokeWidth=strokeWidth
-        strokeLinecap="round"
+        strokeLinecap="round" 
         strokeLinejoin="round"
       )
       path( 
         fill=fill
-        d="M15.99995,7.24049 C15.99995,8.33729 13.76135,8.59949 10.99985,8.59949 C9.87455,8.59949 8.83565,8.55599 7.99985,8.42999"
-        stroke=secondaryColor
+        d="M9.53333333,2.93315 L9.53333333,2.34685 L9.53333333,0.73315 C9.53333333,0.73315 9.99166667,0.366483333 11,0.366483333 C12.2833333,0.366483333 12.4666667,0.73315 12.4666667,0.73315 L12.4666667,2.34685 L12.4666667,2.93315"
+        stroke=secondaryColor 
         strokeWidth=strokeWidth
-        strokeLlinecap="round"
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+      )
+      path(
+        fill=fill 
+        d="M11,8.10282 L11,9.53282"
+        stroke=secondaryColor 
+        strokeWidth=strokeWidth
+        strokeLinecap="round" 
         strokeLinejoin="round"
       )
       path( 
         fill=fill
-        d="M9.8,4.39985 L9.8,3.92015 L9.8,2.59985 C9.8,2.59985 10.175,2.29985 11,2.29985 C12.05,2.29985 12.2,2.59985 12.2,2.59985 L12.2,3.92015 L12.2,4.39985"
+        d="M9.53333333,8.10318667 L9.53333333,9.45948667"
+        stroke=secondaryColor 
+        strokeWidth=strokeWidth
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+      )
+      path( 
+        fill=fill
+        d="M12.4666667,8.10318667 L12.4666667,9.45948667"
         stroke=secondaryColor
         strokeWidth=strokeWidth
-        strokeLinecap="round"
+        strokeLinecap="round" 
         strokeLinejoin="round"
       )
-      path(
+      path( 
         fill=fill
-        d="M11,8.62958 L11,9.79958"
+        d="M4.8125,6.75202 C4.6981,7.31045333 4.73623333,7.57775333 4.36956667,7.85862 C4.36956667,8.78372 7.31646667,9.53318667 10.9519667,9.53318667 C14.5871,9.53318667 17.5343667,8.78372 17.5343667,7.85862 C17.1721,7.57775333 17.2425,7.28735333 17.1735667,6.75202"
         stroke=secondaryColor
         strokeWidth=strokeWidth
-        strokeLinecap="round"
+        strokeLinecap="round" 
         strokeLinejoin="round"
       )
       path(
-        fill=fill
-        d="M9.8,8.62988 L9.8,9.73958"
+        fill=fill 
+        d="M11,0.366666667 L11,3.66666667"
         stroke=secondaryColor
         strokeWidth=strokeWidth
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      )
-      path(
-        fill=fill
-        d="M12.2,8.62988 L12.2,9.73958"
-        stroke=secondaryColor
-        strokeWidth=strokeWidth
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      )
-      path(
-        fill=fill
-        d="M5.9375,7.52438 C5.8439,7.98128 5.8751,8.19998 5.5751,8.42978 C5.5751,9.18668 7.9862,9.79988 10.9607,9.79988 C13.9349,9.79988 16.3463,9.18668 16.3463,8.42978 C16.0499,8.19998 16.1075,7.96238 16.0511,7.52438"
-        stroke=secondaryColor
-        strokeWidth=strokeWidth
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      )
-      path(
-        fill=fill
-        d="M6.5,16.61387 L6.5,19.39517"
-        stroke=primaryColor
-        strokeWidth=strokeWidth
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      )
-      path(
-        fill=fill
-        d="M15.5,16.61387 L15.5,19.39517"
-        stroke=primaryColor
-        strokeWidth=strokeWidth
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      )
-      path(
-        fill=fill
-        d="M11,2.3 L11,5"
-        stroke=secondaryColor
-        strokeWidth=strokeWidth
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      )
-      path(
-        fill=fill
-        d="M13.76753,16.1183 C13.56023,16.5959 12.53393,17.5625 11.01233,17.5625 C9.49073,17.5625 8.37803,16.5677 8.25713,16.1183"
-        stroke=primaryColor
-        strokeWidth=strokeWidth
-        strokeLinecap="round"
+        strokeLinecap="round" 
         strokeLinejoin="round"
       )
   `;
