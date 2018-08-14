@@ -20,29 +20,35 @@ const defaultProps = {
 function PostCode({ fill, strokeWidth, primaryColor, secondaryColor }) {
   return pug`
     svg(xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22")
-      polygon(
+      polygon( 
         fill=fill
         strokeWidth=strokeWidth
-        points="2 20 20 20 20 2 2 2"
+        points="0 22 22 22 22 0 0 0"
       )
-      polygon(
-        fill=fill
-        strokeWidth=strokeWidth
-        stroke=primaryColor
-        points="13.7 4.7 8.3 2.9 2.9 4.7 2.9 19.1 8.3 17.3 13.7 19.1 19.1 17.3 19.1 2.9"
+      g(
+        transform="translate(1.100000, 1.100000)" 
+        stroke="#000000" 
+        strokeLinecap="round" 
+        strokeLinejoin="round"
       )
-      path(
-        fill=fill
-        strokeWidth=strokeWidth
-        d="M13.7,9.8 C13.7,12.2 11,14.9 11,14.9 C11,14.9 8.3,12.2 8.3,9.8 C8.3,8.3087 9.5087,7.1 11,7.1 C12.4913,7.1 13.7,8.3087 13.7,9.8 Z" 
-        stroke=secondaryColor
-      )
-      path(
-        fill=fill
-        strokeWidth=strokeWidth
-        d="M11.9,9.8 C11.9,10.2971 11.4971,10.7 11,10.7 C10.5029,10.7 10.1,10.2971 10.1,9.8 C10.1,9.3029 10.5029,8.9 11,8.9 C11.4971,8.9 11.9,9.3029 11.9,9.8 Z"
-        stroke=secondaryColor
-      )
+        polygon(
+          fill=fill
+          stroke=primaryColor 
+          strokeWidth=strokeWidth
+          points="13.2 2.2 6.6 0 0 2.2 0 19.8 6.6 17.6 13.2 19.8 19.8 17.6 19.8 0"
+        )
+        path( 
+          fill=fill
+          stroke=secondaryColor 
+          strokeWidth=strokeWidth
+          d="M13.2,8.43333333 C13.2,11.3666667 9.9,14.6666667 9.9,14.6666667 C9.9,14.6666667 6.6,11.3666667 6.6,8.43333333 C6.6,6.61063333 8.0773,5.13333333 9.9,5.13333333 C11.7227,5.13333333 13.2,6.61063333 13.2,8.43333333 Z"
+        )
+        path(
+          fill=fill
+          stroke=secondaryColor 
+          strokeWidth=strokeWidth 
+          d="M11,8.43333333 C11,9.0409 10.5075667,9.53333333 9.9,9.53333333 C9.29243333,9.53333333 8.8,9.0409 8.8,8.43333333 C8.8,7.82576667 9.29243333,7.33333333 9.9,7.33333333 C10.5075667,7.33333333 11,7.82576667 11,8.43333333 Z"
+        )
   `;
 }
 
