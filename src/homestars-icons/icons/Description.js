@@ -20,43 +20,42 @@ const defaultProps = {
 function Description({ fill, strokeWidth, primaryColor, secondaryColor }) {
   return pug`
     svg(xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22")
-      polygon(
-        fill=fill 
-        points="4 22 21 22 21 5 4 5"
+      polygon( 
+        fill=fill
+        strokeWidth=strokeWidth
+        points="0 22 22 22 22 0 0 0"
       )
-      polygon(
-        fill=fill 
+      polygon( 
+        fill=fill
+        strokeWidth=strokeWidth
         stroke=primaryColor
-        strokeWidth=strokeWidth 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        points="15.0093133 15.4198383 13.41358 13.824105 18.3914633 8.84622167 19.9871967 10.441955"
-      )
-      path(
-        fill=fill 
-        d="M19.18933,11.2398217 L17.5935967,9.64408833" 
-        stroke=primaryColor
-        strokeWidth=strokeWidth 
-        strokeLinecap="round" 
-        strokeLinejoin="round"
+        strokeLlinecap="round" 
+        strokeLlinejoin="round" 
+        points="14.247 13.484 12.182 11.419 18.624 4.977 20.689 7.043"
       )
       path( 
         fill=fill
-        strokeWidth=strokeWidth 
-        d="M19.9871683,10.4418417 L18.391435,8.84610833 L18.7903683,8.447175 C19.231235,8.00659167 19.9455183,8.00659167 20.3861017,8.447175 C20.826685,8.88775833 20.826685,9.602325 20.3861017,10.0429083 L19.9871683,10.4418417 Z" 
-        stroke=primaryColor
+        strokeWidth=strokeWidth
+        stroke=primaryColor 
+        strokeLlinecap="round" 
+        strokeLlinejoin="round" 
+        d="M19.65678 8.07506333L17.5917133 6.00999667M20.6892767 7.04238333L18.62421 4.97731667 19.1404767 4.46105C19.71101 3.89088333 20.6353767 3.89088333 21.2055433 4.46105 21.77571 5.03121667 21.77571 5.95595 21.2055433 6.52611667L20.6892767 7.04238333z"
       )
       polygon( 
-        fill=fill 
-        stroke=primaryColor
-        strokeWidth=strokeWidth 
-        points="12.2166667 16.6166667 13.4134667 13.8241333 15.0092 15.4198667"
-      )
-      path(
         fill=fill
-        strokeWidth=strokeWidth 
-        d="M12.4597383,13.2166667 L4.84997167,13.2166667 C4.53717167,13.2166667 4.283305,13.4705333 4.283305,13.7833333 L4.283305,18.8833333 C4.283305,19.1961333 4.53717167,19.45 4.84997167,19.45 L20.1499717,19.45 C20.463055,19.45 20.7166383,19.1961333 20.7166383,18.8833333 L20.7166383,13.7833333 C20.7166383,13.4705333 20.463055,13.2166667 20.1499717,13.2166667 L18.8151883,13.2166667" 
+        strokeWidth=strokeWidth
+        stroke=primaryColor 
+        strokeLlinecap="round" 
+        strokeLlinejoin="round" 
+        points="10.633 15.033 12.182 11.419 14.247 13.485"
+      )
+      path( 
+        fill=fill
+        strokeWidth=strokeWidth
         stroke=secondaryColor
+        strokeLlinecap="round" 
+        strokeLlinejoin="round" 
+        d="M10.9478967,10.6333333 L1.09996333,10.6333333 C0.695163333,10.6333333 0.36663,10.9618667 0.36663,11.3666667 L0.36663,17.9666667 C0.36663,18.3714667 0.695163333,18.7 1.09996333,18.7 L20.8999633,18.7 C21.30513,18.7 21.6332967,18.3714667 21.6332967,17.9666667 L21.6332967,11.3666667 C21.6332967,10.9618667 21.30513,10.6333333 20.8999633,10.6333333 L19.1725967,10.6333333"
       )
   `;
 }
