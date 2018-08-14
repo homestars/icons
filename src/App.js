@@ -7,6 +7,7 @@ import "./App.css";
 // or else it won't be accessible from the package
 import { Star } from "./homestars-icons/index";
 
+console.log('test')
 class App extends Component {
   render() {
     return pug`
