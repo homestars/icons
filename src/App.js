@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 // Import your component from ./homestars-icons/index.js.
 // It is critical that you export it from that file
 // or else it won't be accessible from the package
-import { PostCode } from "./homestars-icons/index";
+import { CreditCard } from './homestars-icons/index';
 
 class App extends Component {
   render() {
     return pug`
-      PostCode(size=200)
+      CreditCard(size=200)
     `;
   }
 }
