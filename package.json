@@ -1,6 +1,6 @@
 {
   "name": "homestars-icons",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "description": "HomeStars componentized icons",
   "main": "dist/index.js",
   "repository": {
