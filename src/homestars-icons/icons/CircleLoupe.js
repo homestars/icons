@@ -1,0 +1,27 @@
+import React from "react";
+import PropTypes from "prop-types";
+import iconWrapper from "../iconWrapper";
+
+import { cyan, white } from "../colours";
+
+const propTypes = {
+  fill: PropTypes.string
+};
+
+const defaultProps = {
+  fill: cyan
+};
+
+function CircleLoupe({ fill }) {
+  return pug`
+    svg(xmlns='http://www.w3.org/2000/svg', width='22', height='22', viewBox='0 0 22 22')
+      circle(cx="11" cy="11" r="11" fill=cyan)
+      path(fill=white d="M16.0416667,14.7190476 L13.1607143,11.8380952 L12.6997619,11.8380952 L12.5269048,11.6652381 C13.1030952,11.0314286 13.4488095,10.1671428 13.4488095,9.24523811 C13.4488095,7.17095239 11.7778572,5.5 9.70357144,5.5 C7.62928572,5.5 5.95833333,7.17095239 5.95833333,9.24523811 C5.95833333,11.3195238 7.62928572,12.9904762 9.70357144,12.9904762 C10.6254762,12.9904762 11.4897619,12.6447619 12.1235714,12.0685714 L12.2964286,12.2414286 L12.2964286,12.7023809 L15.1773809,15.5833333 L16.0416667,14.7190476 Z")
+      path(fill=cyan d="M9.85416667,11.9166667 C8.45370368,11.9166667 7.33333333,10.7962963 7.33333333,9.39583333 C7.33333333,7.99537035 8.45370368,6.875 9.85416667,6.875 C11.2546297,6.875 12.375,7.99537035 12.375,9.39583333 C12.375,10.7962963 11.2546297,11.9166667 9.85416667,11.9166667 Z")
+  `;
+}
+
+CircleLoupe.propTypes = propTypes;
+CircleLoupe.defaultProps = defaultProps;
+
+export default iconWrapper(CircleLoupe);
