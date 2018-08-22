@@ -10,6 +10,7 @@ export { default as Check } from './icons/Check';
 export { default as Chevron } from './icons/Chevron';
 export { default as CircleAd } from './icons/CircleAd';
 export { default as CircleCheck } from './icons/CircleCheck';
+export { default as CirclePhone } from './icons/CirclePhone';
 export { default as Clock } from './icons/Clock';
 export { default as CreditCard } from './icons/CreditCard';
 export { default as Description } from './icons/Description';

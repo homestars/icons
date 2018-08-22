@@ -5,12 +5,12 @@ import "./App.css";
 // Import your component from ./homestars-icons/index.js.
 // It is critical that you export it from that file
 // or else it won't be accessible from the package
-import { CircleCheck } from "./homestars-icons/index";
+import { CirclePhone } from "./homestars-icons/index";
 
 class App extends Component {
   render() {
     return pug`
-      CircleCheck(size=200)
+      CirclePhone(size=200)
     `;
   }
 }
