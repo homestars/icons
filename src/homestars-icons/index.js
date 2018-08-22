@@ -24,6 +24,7 @@ export { default as FindAPro } from './icons/FindAPro';
 export { default as Gear } from './icons/Gear';
 export { default as Hammer } from './icons/Hammer';
 export { default as HourGlass } from './icons/HourGlass';
+export { default as HomeStars } from './icons/HomeStars';
 export { default as HST } from './icons/HST';
 export { default as Instagram } from './icons/Instagram';
 export { default as Linkedin } from './icons/Linkedin';
