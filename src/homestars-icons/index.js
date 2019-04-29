@@ -19,6 +19,7 @@ export { default as Description } from './icons/Description';
 export { default as DollarSign } from './icons/DollarSign';
 export { default as Download } from './icons/Download';
 export { default as Email } from './icons/Email';
+export { default as Envelope } from './icons/Envelope';
 export { default as Facebook } from './icons/Facebook';
 export { default as FindAPro } from './icons/FindAPro';
 export { default as Gear } from './icons/Gear';
