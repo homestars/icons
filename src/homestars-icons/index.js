@@ -3,6 +3,7 @@ export { default as iconWrapper } from './iconWrapper';
 // icons follow
 export { default as Add } from './icons/Add';
 export { default as Arrow } from './icons/Arrow';
+export { default as BarChart } from "./icons/BarChart";
 export { default as Bookmark } from './icons/Bookmark';
 export { default as Bullseye } from './icons/Bullseye';
 export { default as ChatBubble } from './icons/ChatBubble';
