@@ -49,6 +49,7 @@ export { default as QuestionMark } from './icons/QuestionMark';
 export { default as ScalesOfJustice } from './icons/ScalesOfJustice';
 export { default as Send } from './icons/Send';
 export { default as Share } from './icons/Share';
+export { default as ShowMore } from "./icons/ShowMore";
 export { default as Star } from './icons/Star';
 export { default as Stats } from './icons/Stats';
 export { default as TextMessage } from './icons/TextMessage';
