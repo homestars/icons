@@ -58,11 +58,23 @@ $ npm install
 ```shell
 $ npm start
 ```
+## Publishing
+1. To publish one must have an npm account and be added to the to the [https://www.npmjs.com/org/homestarsdotcom](Homestarsdotcom) team.
 
-4. After committing changes to `master`, don't forget to publish to NPM:
+2. Additionaly, one has to login into npm from the command line
+```shell
+npm login
+```
+
+3. Finally, after committing changes to `master`, run following command to publish to npm: 
 
 ```shell
 $ npm run patch
 ```
 
 This will increment the version, build a distribution, and publish to NPM.
+
+4. Finally, update the npm version of the homestars-icon package in the package.json of your project. 
+```shell
+npm upgrade homestars-icons
+```
