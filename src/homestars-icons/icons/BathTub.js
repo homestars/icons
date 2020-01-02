@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import iconWrapper from "../iconWrapper";
+import { cyan } from "../colours";
 
 const propTypes = {
   stroke: PropTypes.string
 };
 
 const defaultProps = {
-  stroke: "#27A9E1"
+  stroke: cyan
 };
 
 function BathTub({ stroke }) {
