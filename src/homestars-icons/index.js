@@ -50,6 +50,7 @@ export { default as Power } from './icons/Power';
 export { default as Prohibition } from './icons/Prohibition';
 export { default as Project } from './icons/Project';
 export { default as QuestionMark } from './icons/QuestionMark';
+export { default as Roofing } from './icons/Roofing';
 export { default as ScalesOfJustice } from './icons/ScalesOfJustice';
 export { default as Send } from './icons/Send';
 export { default as Share } from './icons/Share';
