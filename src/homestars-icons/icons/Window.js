@@ -13,29 +13,16 @@ const defaultProps = {
 
 function Window({ stroke }) {
   return (
-    <svg
-      width="22px"
-      height="22px"
-      viewBox="0 0 45 43"
-    >
-      <g
-        stroke="none"
-        stroke-width="1"
-        fill="none"
-        fill-rule="evenodd"
-      >
+    <svg viewBox="0 0 45 43">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g
           transform="translate(-458.000000, -746.000000)"
           stroke={stroke}
           stroke-width="2"
         >
           <g id="Group" transform="translate(240.000000, 714.000000)">
-            <g
-              transform="translate(160.000000, 0.000000)"
-            >
-              <g
-                transform="translate(58.000000, 31.000000)"
-              >
+            <g transform="translate(160.000000, 0.000000)">
+              <g transform="translate(58.000000, 31.000000)">
                 <g id="windows-icon" transform="translate(1.607143, 2.421053)">
                   <rect
                     stroke-linejoin="round"

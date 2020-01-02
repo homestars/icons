@@ -13,28 +13,12 @@ const defaultProps = {
 
 function Heating({ stroke }) {
   return (
-    <svg
-      width="22px"
-      height="22px"
-      viewBox="0 0 43 48"
-    >
-      <g
-        stroke="none"
-        stroke-width="1"
-        fill="none"
-        fill-rule="evenodd"
-      >
-        <g
-          transform="translate(-778.000000, -744.000000)"
-          stroke={stroke}
-        >
+    <svg viewBox="0 0 43 48">
+      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-778.000000, -744.000000)" stroke={stroke}>
           <g id="Group" transform="translate(240.000000, 714.000000)">
-            <g
-              transform="translate(480.000000, 0.000000)"
-            >
-              <g
-                transform="translate(58.000000, 31.000000)"
-              >
+            <g transform="translate(480.000000, 0.000000)">
+              <g transform="translate(58.000000, 31.000000)">
                 <g transform="translate(1.607143, 0.807018)">
                   <line
                     x1="36.1607143"

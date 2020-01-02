@@ -13,7 +13,7 @@ const defaultProps = {
 
 function BathTub({ stroke }) {
   return (
-    <svg width="22" height="22" viewBox="0 0 43 38">
+    <svg viewBox="0 0 43 38">
       <defs>
         <polygon
           id="path-1"
