@@ -4,21 +4,27 @@ import iconWrapper from "../iconWrapper";
 import { cyan } from "../colours";
 
 const propTypes = {
-  stroke: PropTypes.string
+  stroke: PropTypes.string,
+  strokeWidth: PropTypes.number
 };
 
 const defaultProps = {
   stroke: cyan
 };
 
-function Window({ stroke }) {
+function Window({ stroke, strokeWidth }) {
   return (
     <svg viewBox="0 0 45 43">
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g
+        stroke="none"
+        stroke-width={strokeWidth}
+        fill="none"
+        fill-rule="evenodd"
+      >
         <g
           transform="translate(-458.000000, -746.000000)"
           stroke={stroke}
-          stroke-width="2"
+          stroke-width={strokeWidth}
         >
           <g id="Group" transform="translate(240.000000, 714.000000)">
             <g transform="translate(160.000000, 0.000000)">
