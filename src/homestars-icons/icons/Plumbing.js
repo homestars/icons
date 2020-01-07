@@ -17,7 +17,7 @@ function Plumbing({ stroke, strokeWidth }) {
     <svg viewBox="0 0 45 46">
       <g
         stroke="none"
-        stroke-width={strokeWidth}
+        strokeWidth={strokeWidth}
         fill="none"
         fill-rule="evenodd"
       >
