@@ -4,14 +4,15 @@ import iconWrapper from "../iconWrapper";
 import { cyan } from "../colours";
 
 const propTypes = {
-  stroke: PropTypes.string
+  stroke: PropTypes.string,
+  strokeWidth: PropTypes.number
 };
 
 const defaultProps = {
   stroke: cyan
 };
 
-function BathTub({ stroke }) {
+function BathTub({ stroke, strokeWidth }) {
   return (
     <svg viewBox="0 0 43 38">
       <defs>
@@ -20,7 +21,7 @@ function BathTub({ stroke }) {
           points="0 0 41.7856744 0 41.7856744 6.25438596 0 6.25438596"
         ></polygon>
       </defs>
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g stroke="none" stroke-width={strokeWidth} fill="none" fill-rule="evenodd">
         <g transform="translate(-1099.000000, -749.000000)">
           <g transform="translate(240.000000, 714.000000)">
             <g transform="translate(800.000000, 0.000000)">

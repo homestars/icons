@@ -4,14 +4,15 @@ import iconWrapper from "../iconWrapper";
 import { cyan } from "../colours";
 
 const propTypes = {
-  stroke: PropTypes.string
+  stroke: PropTypes.string,
+  strokeWidth: PropTypes.number
 };
 
 const defaultProps = {
   stroke: cyan
 };
 
-function Power({ stroke }) {
+function Power({ stroke, strokeWidth }) {
   return (
     <svg viewBox="0 0 45 43">
       <defs>
@@ -20,7 +21,12 @@ function Power({ stroke }) {
           points="0 0.0867543874 44.598153 0.0867543874 44.598153 42.9736857 0 42.9736857"
         ></polygon>
       </defs>
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g
+        stroke="none"
+        stroke-width={strokeWidth}
+        fill="none"
+        fill-rule="evenodd"
+      >
         <g transform="translate(-938.000000, -746.000000)">
           <g id="Group" transform="translate(240.000000, 714.000000)">
             <g transform="translate(640.000000, 0.000000)">

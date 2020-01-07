@@ -4,17 +4,23 @@ import iconWrapper from "../iconWrapper";
 import { cyan } from "../colours";
 
 const propTypes = {
-  stroke: PropTypes.string
+  stroke: PropTypes.string,
+  strokeWidth: PropTypes.number
 };
 
 const defaultProps = {
   stroke: cyan
 };
 
-function Plumbing({ stroke }) {
+function Plumbing({ stroke, strokeWidth }) {
   return (
     <svg viewBox="0 0 45 46">
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g
+        stroke="none"
+        stroke-width={strokeWidth}
+        fill="none"
+        fill-rule="evenodd"
+      >
         <g transform="translate(-618.000000, -745.000000)" fill={stroke}>
           <g transform="translate(240.000000, 714.000000)">
             <g transform="translate(320.000000, 0.000000)">
