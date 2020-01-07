@@ -17,14 +17,14 @@ function Window({ stroke, strokeWidth }) {
     <svg viewBox="0 0 45 43">
       <g
         stroke="none"
-        stroke-width={strokeWidth}
+        strokeWidth={strokeWidth}
         fill="none"
         fill-rule="evenodd"
       >
         <g
           transform="translate(-458.000000, -746.000000)"
           stroke={stroke}
-          stroke-width={strokeWidth}
+          strokeWidth={strokeWidth}
         >
           <g id="Group" transform="translate(240.000000, 714.000000)">
             <g transform="translate(160.000000, 0.000000)">

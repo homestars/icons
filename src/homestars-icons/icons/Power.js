@@ -23,7 +23,7 @@ function Power({ stroke, strokeWidth }) {
       </defs>
       <g
         stroke="none"
-        stroke-width={strokeWidth}
+        strokeWidth={strokeWidth}
         fill="none"
         fill-rule="evenodd"
       >

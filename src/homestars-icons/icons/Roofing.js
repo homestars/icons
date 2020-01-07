@@ -17,7 +17,7 @@ function Roofing({ stroke, strokeWidth }) {
     <svg viewBox="0 0 47 38">
       <g
         stroke="none"
-        stroke-width={strokeWidth}
+        strokeWidth={strokeWidth}
         fill="none"
         fill-rule="evenodd"
       >
