@@ -37,6 +37,7 @@ export { default as Listing } from './icons/Listing';
 export { default as Location } from './icons/Location';
 export { default as Lock } from './icons/Lock';
 export { default as Loupe } from './icons/Loupe';
+export { default as Map } from './icons/Map';
 export { default as Messaging } from './icons/Messaging';
 export { default as Note } from './icons/Note';
 export { default as OptionsList } from './icons/OptionsList';
