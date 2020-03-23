@@ -67,6 +67,7 @@ export { default as Share } from './icons/Share';
 export { default as ShowMore } from "./icons/ShowMore";
 export { default as Star } from './icons/Star';
 export { default as Stats } from './icons/Stats';
+export { default as TaskClipboard } from './icons/TaskClipboard';
 export { default as TextMessage } from './icons/TextMessage';
 export { default as ToPhone } from './icons/ToPhone';
 export { default as Toolkit } from './icons/Toolkit';
