@@ -2,6 +2,7 @@ export { default as iconWrapper } from './iconWrapper';
 
 // icons follow
 export { default as Add } from './icons/Add';
+export { default as Appliance } from './icons/Appliance';
 export { default as Arrow } from './icons/Arrow';
 export { default as BarChart } from "./icons/BarChart";
 export { default as BathTub } from "./icons/BathTub";
@@ -30,6 +31,7 @@ export { default as Download } from './icons/Download';
 export { default as Email } from './icons/Email';
 export { default as Envelope } from './icons/Envelope';
 export { default as Facebook } from './icons/Facebook';
+export { default as Fence } from './icons/Fence';
 export { default as FindAPro } from './icons/FindAPro';
 export { default as Gear } from './icons/Gear';
 export { default as Hammer } from './icons/Hammer';
@@ -46,6 +48,7 @@ export { default as Lock } from './icons/Lock';
 export { default as Loupe } from './icons/Loupe';
 export { default as Map } from './icons/Map';
 export { default as Messaging } from './icons/Messaging';
+export { default as Moving } from './icons/Moving';
 export { default as Note } from './icons/Note';
 export { default as OptionsList } from './icons/OptionsList';
 export { default as PaintBrush } from "./icons/PaintBrush";
