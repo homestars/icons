@@ -31,6 +31,7 @@ export { default as Download } from './icons/Download';
 export { default as Email } from './icons/Email';
 export { default as Envelope } from './icons/Envelope';
 export { default as Facebook } from './icons/Facebook';
+export { default as Fence } from './icons/Fence';
 export { default as FindAPro } from './icons/FindAPro';
 export { default as Gear } from './icons/Gear';
 export { default as Hammer } from './icons/Hammer';

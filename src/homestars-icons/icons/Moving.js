@@ -4,7 +4,6 @@ import iconWrapper from "../iconWrapper";
 import { cyan } from "../colours";
 
 const propTypes = {
-  fill: PropTypes.string,
   stroke: PropTypes.string,
   strokeWidth: PropTypes.number
 };
