@@ -1,13 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
 import iconWrapper from "../iconWrapper";
-import { cyan } from "../colours";
-
-const propTypes = {
-};
-
-const defaultProps = {
-};
 
 function UnderMaintenance() {
   return (
@@ -139,8 +131,5 @@ function UnderMaintenance() {
     </svg>
   );
 }
-
-UnderMaintenance.propTypes = propTypes;
-UnderMaintenance.defaultProps = defaultProps;
 
 export default iconWrapper(UnderMaintenance);
