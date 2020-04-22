@@ -76,6 +76,7 @@ export { default as ToPhone } from './icons/ToPhone';
 export { default as Toolkit } from './icons/Toolkit';
 export { default as Trash } from './icons/Trash';
 export { default as Twitter } from './icons/Twitter';
+export { default as UnderMaintenance } from './icons/UnderMaintenance';
 export { default as Users } from './icons/Users';
 export { default as VacationMode } from './icons/VacationMode';
 export { default as Website } from './icons/Website';
