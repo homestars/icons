@@ -1,123 +1,25 @@
 import React from "react";
 import iconWrapper from "../iconWrapper";
 import PropTypes from "prop-types";
+import { cyan } from "../colours";
 
 const propTypes = {
   fill: PropTypes.string,
-  stroke: PropTypes.string,
 };
 
 const defaultProps = {
-  fill: "none",
-  stroke: "black",
+  fill: cyan,
 };
 
-const HomeResidence = ({ fill, stroke }) => {
+const HomeResidence = ({ fill }) => {
   return pug`
-    svg(width="22", height="22", viewBox="0 0 66 66")
-      defs
-        polygon#locationresidence-a(points="0 52 60 52 60 0 0 0")
-      rect(width="6", height="8", x="50", y="10", fill=fill)
-      polygon(fill=fill, points="49 10 57 10 57 6 49 6")
-      g(transform="translate(3 5)")
-        polygon(
-          fill=fill
-          stroke=stroke
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          style={ strokeLinejoin: "round" }
-          strokeWidth=1
-          points="3 51 57 51 57 19 3 19"
-        )
-        path(
-          fill="none"
-          stroke=stroke
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          style={ strokeLinejoin: "round" }
-          strokeWidth=1
-          d="M23 46.9998L3 46.9998 23 46.9998zM57 22.9998L3 22.9998M57 46.9998L37 46.9998"
-        )
-        mask#locationresidence-b(fill="#fff")
-          use(xlinkHref="#locationresidence-a")
-        polygon(
-          fill=fill
-          stroke=stroke
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          style={ strokeLinejoin: "round" }
-          strokeWidth=1
-          points="1 19 11 9 49 9 59 19"
-          mask="url(#locationresidence-b)"
-        )
-      polygon(
-        fill="none"
-        stroke=stroke
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        style={ strokeLinejoin: "round" }
-        strokeWidth=1
-        points="44 46 54 46 54 36 44 36"
-      )
-      path(
-        fill=fill
-        stroke="none"
-        d="M32,47 C32,47.56 31.56,48 31,48 C30.44,48 30,47.56 30,47 C30,46.46 30.44,46 31,46 C31.56,46 32,46.46 32,47 Z"
-      )
-      path(
-        fill="none"
-        stroke=stroke
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        style={ strokeLinejoin: "round" }
-        strokeWidth=1
-        d="M50 9.9998L50 13.9998M56 17.9998L56 9.9998"
-      )
-      polygon(
-        fill="none"
-        stroke=stroke
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        style={ strokeLinejoin: "round" }
-        strokeWidth=1
-        points="49 10 57 10 57 6 49 6"
-      )
-      path(
-        fill="none"
-        stroke=stroke
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        style={ strokeLinejoin: "round" }
-        strokeWidth=1
-        d="M49 35.9998L49 45.9998M55 45.9998L43 45.9998"
-      )
-      polygon(
-        fill="none"
-        stroke=stroke
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        style={ strokeLinejoin: "round" }
-        strokeWidth=1
-        points="12 46 22 46 22 36 12 36"
-      )
-      polygon(
-        fill="none"
-        stroke=stroke
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        style={ strokeLinejoin: "round" }
-        strokeWidth=1
-        points="26 56 40 56 40 36 26 36"
-      )
-      path(
-        fill="none"
-        stroke=stroke
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        style={ strokeLinejoin: "round" }
-        strokeWidth=1
-        d="M17 35.9998L17 45.9998M22 39.9998L12 39.9998M54 39.9998L44 39.9998M23 45.9998L11 45.9998"
-      )
+  svg(width='22', height='22', viewBox='0 0 22 22')
+  g(fill='none', fillRule='evenodd')
+    rect(width='22', height='22')
+    path(
+      fill=fill, d='M2.333,9.3335 L19.666,9.3335 L19.666,8.6665 L2.333,8.6665 L2.333,9.3335 Z M13.667,18.6665 L19.667,18.6665 L19.667,18.0005 L13.667,18.0005 L13.667,18.6665 Z M9,18.6675 L13,18.6675 L13,12.6675 L9,12.6675 L9,18.6675 Z M2.333,18.6665 L8.333,18.6665 L8.333,18.0005 L2.333,18.0005 L2.333,18.6665 Z M19.666,17.3335 L13.667,17.3335 L13.667,12.3335 C13.667,12.1495 13.518,12.0005 13.333,12.0005 L8.666,12.0005 C8.482,12.0005 8.333,12.1495 8.333,12.3335 L8.333,17.3335 L2.333,17.3335 L2.333,10.0005 L19.666,10.0005 L19.666,17.3335 Z M4.805,5.3335 L17.195,5.3335 L18.43,6.5685 L18.431,6.5695 L19.862,8.0005 L2.138,8.0005 L4.805,5.3335 Z M17,4.0005 L18.333,4.0005 L18.333,5.5275 L17.569,4.7645 C17.507,4.7015 17.422,4.6665 17.333,4.6665 L17,4.6665 L17,4.0005 Z M16.667,3.3345 L18.667,3.3345 L18.667,2.6675 L16.667,2.6675 L16.667,3.3345 Z M20.902,8.0975 L19,6.1945 L19,4.0005 C19.184,4.0005 19.333,3.8515 19.333,3.6675 L19.333,2.3335 C19.333,2.1495 19.184,2.0005 19,2.0005 L16.333,2.0005 C16.149,2.0005 16,2.1495 16,2.3335 L16,3.6675 C16,3.8505 16.149,4.0005 16.333,4.0005 L16.333,4.6665 L4.666,4.6665 C4.578,4.6665 4.493,4.7015 4.431,4.7645 L1.098,8.0975 C1.002,8.1935 0.974,8.3365 1.025,8.4615 C1.077,8.5855 1.199,8.6675 1.333,8.6675 L1.666,8.6675 L1.666,19.0005 C1.666,19.1845 1.816,19.3335 2,19.3335 L8.666,19.3335 L13.333,19.3335 L20,19.3335 C20.184,19.3335 20.333,19.1845 20.333,19.0005 L20.333,8.6675 L20.666,8.6675 C20.801,8.6675 20.923,8.5855 20.975,8.4615 C21.026,8.3365 20.997,8.1935 20.902,8.0975 L20.902,8.0975 Z')
+    path(fill=fill, d='M15 13.3335L16 13.3335 16 12.6665 15 12.6665 15 13.3335zM16.666 13.3335L17.666 13.3335 17.666 12.6665 16.666 12.6665 16.666 13.3335zM16.667 15.3335L17.667 15.3335 17.667 14.0005 16.667 14.0005 16.667 15.3335zM15 15.3335L16 15.3335 16 14.0005 15 14.0005 15 15.3335zM14.333 16.0005L14.666 16.0005 18 16.0005 18.333 16.0005C18.518 16.0005 18.667 15.8515 18.667 15.6675 18.667 15.4835 18.518 15.3335 18.333 15.3335L18.333 12.3335C18.333 12.1495 18.184 12.0005 18 12.0005L14.666 12.0005C14.482 12.0005 14.333 12.1495 14.333 12.3335L14.333 15.3335C14.149 15.3345 14 15.4835 14 15.6675 14 15.8515 14.149 16.0005 14.333 16.0005L14.333 16.0005zM4.333 15.3335L5.333 15.3335 5.333 14.0005 4.333 14.0005 4.333 15.3335zM4.333 13.3335L5.333 13.3335 5.333 12.6665 4.333 12.6665 4.333 13.3335zM6 13.3335L7 13.3335 7 12.6665 6 12.6665 6 13.3335zM6 15.3335L7 15.3335 7 14.0005 6 14.0005 6 15.3335zM3.666 16.0005L4 16.0005 7.333 16.0005 7.666 16.0005C7.851 16.0005 8 15.8515 8 15.6675 8 15.4835 7.851 15.3345 7.667 15.3335L7.667 12.3335C7.667 12.1495 7.518 12.0005 7.333 12.0005L4 12.0005C3.816 12.0005 3.666 12.1495 3.666 12.3335L3.666 15.3335C3.482 15.3335 3.333 15.4835 3.333 15.6675 3.333 15.8515 3.482 16.0005 3.666 16.0005L3.666 16.0005zM10.3329 15.6666C10.1489 15.6666 9.9999 15.8156 9.9999 15.9996 9.9999 16.1846 10.1489 16.3336 10.3329 16.3336 10.5169 16.3336 10.6659 16.1846 10.6659 15.9996 10.6659 15.8156 10.5169 15.6666 10.3329 15.6666'
+  )
   `;
 };
 
