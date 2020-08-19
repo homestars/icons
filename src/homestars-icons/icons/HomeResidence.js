@@ -11,7 +11,7 @@ const defaultProps = {
   fill: cyan,
 };
 
-const HomeResidence = ({ fill }) => {
+function HomeResidence({ fill }) {
   return pug`
   svg(width='22', height='22', viewBox='0 0 22 22')
   g(fill='none', fillRule='evenodd')
