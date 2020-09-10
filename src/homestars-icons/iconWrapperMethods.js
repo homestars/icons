@@ -7,8 +7,8 @@ export const getTranslation = (size, viewBoxSize) => {
   return `translate(${translation} ${translation})`;
 };
 
-export const getViewboxSize = ({ circleFill, circleStroke }) => {
-  return circleFill || circleStroke ? 34 : 22;
+export const getViewboxSize = ({ circleFill, circleStroke, viewBox }) => {
+  return viewBox ? viewBox : circleFill || circleStroke ? 34 : 22;
 };
 
 export const circle = ({
