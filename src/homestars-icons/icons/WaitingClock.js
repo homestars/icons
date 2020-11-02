@@ -27,7 +27,7 @@ function WaitingClock({ fill, stroke, strokeWidth }) {
         stroke={stroke}
         strokeWidth={strokeWidth}
         fill={fill}
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="Company/Chat-view----empty-state"
@@ -53,8 +53,8 @@ function WaitingClock({ fill, stroke, strokeWidth }) {
               y2="11"
               id="Stroke-3"
               stroke="#535455"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></line>
             <line
               x1="10"
@@ -63,8 +63,8 @@ function WaitingClock({ fill, stroke, strokeWidth }) {
               y2="11"
               id="Stroke-3"
               stroke="#E07474"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></line>
           </g>
         </g>
