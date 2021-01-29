@@ -1,5 +1,5 @@
 {
-  "name": "homestars-icons",
+  "name": "@homestarsdotcom/hs-icons",
   "version": "0.1.62",
   "description": "HomeStars componentized icons",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
     "Icons",
     "SVG"
   ],
-  "author": "Benjamin Bruneau <ben@homestars.com> and Curtis Townson <curtis@homestars.com>",
+  "author": "HS Development Team",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/homestars/icons/issues"
